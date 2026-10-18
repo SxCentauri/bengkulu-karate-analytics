@@ -90,7 +90,6 @@ Bengkulu_Karate_Analytics/
 ├── 📂 src/
 │   └── 🐍 analytics_engine.py  # Data preparation + prediksi + rekomendasi (Python)
 ├── 📄 package.json             # Dependensi Node.js (Prisma)
-├── 📄 requirements.txt         # Dependensi Python (Pandas, scikit-learn, NumPy)
 └── 📄 README.md
 ```
 
