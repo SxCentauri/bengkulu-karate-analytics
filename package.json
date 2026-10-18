@@ -1,0 +1,11 @@
+{
+  "name": "bengkulu-karate-analytics",
+  "version": "1.0.0",
+  "description": "Prescriptive Analytics untuk Bengkulu Karate Competition",
+  "main": "index.js",
+  "author": "Akhmat Qavidhufahmi",
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "prisma": "^5.0.0"
+  }
+}

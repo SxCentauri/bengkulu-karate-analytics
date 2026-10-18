@@ -1,0 +1,23 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model KarateClass {
+  id              Int                   @id @default(autoincrement())
+  category_name   String                
+  historical_data RegistrationHistory[]
+}
+
+model RegistrationHistory {
+  id              Int         @id @default(autoincrement())
+  classId         Int
+  year            Int
+  participant_qty Int         
+  is_anomalous    Boolean     @default(false)
+  karateClass     KarateClass @relation(fields: [classId], references: [id])
+}
