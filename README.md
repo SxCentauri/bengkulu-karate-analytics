@@ -24,7 +24,6 @@
 [🏗️ Arsitektur](#️-arsitektur--struktur-folder) •
 [🚀 Cara Menjalankan](#-cara-menjalankan) •
 [📊 Contoh Output](#-contoh-output) •
-[🗺️ Roadmap](#️-roadmap)
 
 </div>
 
