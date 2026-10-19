@@ -217,7 +217,7 @@ matras_dibutuhkan = int(np.ceil(prediksi_2026 / kapasitas_matras))
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<username>/Bengkulu_Karate_Analytics.git
+git clone https://github.com/SxCentauri/bengkulu-karate-analytics.git
 cd Bengkulu_Karate_Analytics
 ```
 
